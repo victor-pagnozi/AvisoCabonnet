@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font: 300 1rem 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header{
+    background-color: #0082FF;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header img{
+    max-height: 11vh;
+}
+
+.body{
+    background-color: #fff;
+    margin-top: 3vw;
+    width: 50vw;
+    border-radius: 13px;
+    height: 75vh;
+}
+
+.content-icon{
+    text-align: center;
+    color: #E6E6E6;
+    margin-top: 6vh;
+}
+
+.content-title{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.content-title h2{
+    font-size: 1rem;
+}
+
+.content-text{
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.content-text p{
+    font-size: 0.9rem;
+}
+
+.content-text p:nth-child(3){
+    font: 500 0.9rem 'Roboto', sans-serif;
+    margin-top: -18px;
+}
+
+.content-social-media{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.content-social-media p{
+    font-size: 0.6rem;
+}
+
+.content-social-media div a img{
+    max-height: 7vh;
+}
+
+.content-social-media div a{
+    text-decoration: none;
+}
+
+.content-social-media div a:nth-child(1){
+    margin-right: 15px;
+}
+
+.container hr{
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 780px){
+    .body{
+        width: 90vw;
+    }
+}
