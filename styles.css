@@ -24,6 +24,13 @@ body{
     padding: 8px 0;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header img{
     max-height: 11vh;
 }
@@ -34,12 +41,15 @@ body{
     width: 50vw;
     border-radius: 13px;
     height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content-icon{
     text-align: center;
     color: #E6E6E6;
-    margin-top: 6vh;
 }
 
 .content-title{
@@ -60,9 +70,20 @@ body{
     font-size: 0.9rem;
 }
 
-.content-text p:nth-child(3){
+.content-text div{
+    margin-top: 5vh;
+}
+
+.content-text div p:nth-child(2){
     font: 500 0.9rem 'Roboto', sans-serif;
-    margin-top: -18px;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 90%;
 }
 
 .content-social-media{
@@ -72,6 +93,7 @@ body{
 
 .content-social-media p{
     font-size: 0.6rem;
+    margin-bottom: 12px;
 }
 
 .content-social-media div a img{
